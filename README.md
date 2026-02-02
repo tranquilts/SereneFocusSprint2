@@ -1,7 +1,13 @@
-# SereneFocus
+ # SereneFocus
 
-## Project Overview
+## Project Overview 
+SereneFocus is a web-based application designed to support students and independent learners who find distraction, cognitive overload and concentration challenging to manage during study sessions. 
 
+The system aims to foster a calm, responsive study environment that adapts to users' attentional and cognitive capacities without placing pressure or overstimulation.
+
+The application employs a low-friction, user-centred design approach that simplifies interaction and minimises visual complexity in order to effectively manage cognitive load. Core functionality supports structure, time-ordered study sessions through set timer controls, including start, pause and reset.
+
+SereneFocus applies simplicity, ease of navigation and structured interaction to support users in sustaining concentration with an uninterrupted, distraction-free environment. 
 
 ## User & System Requirements
 
@@ -28,6 +34,41 @@ Reflections are stored in the reflection state when the user continues to start 
 Design choices prioritise simplicity for single-user, local sessions, and minimal interactions to support user interactions and reduce cognitive load.
 Feedback is delayed to enable users to study productively, without urgency or time pressure cues with end-of-session reflection prompting. 
 Personalisation is optional to maintain simplicity and usability for users with sensory or stimulation challenges.
+
+<img width="856" height="593" alt="image" src="https://github.com/user-attachments/assets/7ddd4c36-8611-4fbb-bb1e-4c704daae33e" />
+<img width="856" height="677" alt="image" src="https://github.com/user-attachments/assets/9f9a3ac7-69cc-4ed7-a3a2-cb0c6cbe6ebb" />
+<img width="492" height="348" alt="Transition Mode" src="https://github.com/user-attachments/assets/202ff4b9-5323-4397-84fb-f90cb1e8e1a6" />
+<img width="856" height="609" alt="image" src="https://github.com/user-attachments/assets/92d5c2e4-6413-45ff-b8ee-6345a4e1fef5" />
+<img width="856" height="653" alt="image" src="https://github.com/user-attachments/assets/fde8b276-6eea-4d9b-b783-aacb36ccf386" />
+
+<img width="394" height="279" alt="Light Mode" src="https://github.com/user-attachments/assets/e8d230bc-b575-451d-9c01-71818b94a566" />
+
+<img width="395" height="281" alt="Cool Focus Mode" src="https://github.com/user-attachments/assets/916a3379-a65c-44dd-9de9-5aa6e6893420" />
+
+<img width="397" height="285" alt="Warm Neutral Mode" src="https://github.com/user-attachments/assets/ce71424a-2e46-41f4-8046-f28389d69d95" />
+
+<img width="396" height="281" alt="Mode 4" src="https://github.com/user-attachments/assets/e4c8bbf7-bb34-4b48-bcd0-c3e070a4a49e" />
+
+<img width="398" height="283" alt="Dark Mode" src="https://github.com/user-attachments/assets/e9b311ff-dc00-4134-93f1-33baa27dd088" />
+
+<img width="881" height="1841" alt="SereneFocus drawio" src="https://github.com/user-attachments/assets/f9f47092-3d77-4860-9f4d-825e5ba4bb9d" />
+
+<img width="1191" height="421" alt="SereneFocus Flowchart drawio" src="https://github.com/user-attachments/assets/b110deac-233b-4666-b857-90079bad764e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
