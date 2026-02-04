@@ -103,6 +103,98 @@ The architecture does not create and store user accounts, including server persi
 
 ## Project Management Progression
 
+Title: Session setup 	
+Sprint: 1
+Priority: High
+Difficulty:
+Story: As a student, I want to set up an independent focus and break structure that is effective and simple. 
+Acceptance criteria include:
+-	Session duration default options are presented clearly to the user.
+-	Controls enable users to increase or decrease duration easily. 
+-	Start button is visible and accessible on the go. 
+Definition of Done:
+Session duration and break setup for users are clear and presentable.
+Configurations are simple and quick for users to configure.
+User input stores quickly once user moves to focus session screen. 
+
+
+Title: Start focus session
+Sprint: 1 
+Priority: High
+Difficulty: Medium
+ User Story:
+-	As a student, I want to start a focus session without friction and study uninterrupted from distractions or excessive visuals.  
+-	Acceptance criteria include:
+-	  The session starts within 3 seconds after user set up sessions.  
+-	Progress updates continuously during focus sessions. 
+Definition of Done:
+Defaults apply with user configuration kept simple and optional as initial setup. 
+No intrusive user interface changes are applied once a session starts. 
+
+Title: Pause/continue session
+Sprint: 1
+Priority: High
+Difficulty: 
+Story: As a student, I want to be able to pause and continue a session without losing progress or resetting a new session. 
+Acceptance criteria:
+-	Pause and start controls are visible and easy to access to pause and stop
+-	Progress tracked is saved by default
+-	Configurations are stored on the session state text. 
+Definition of Done:
+The focus session has the pause and start controls readily available to stop and continue where users left off.
+Progress bar stays still and saves tracking by default.
+Text and progress bar is clear with design cohesion.
+
+Title: Session completion feedback
+Sprint: 2
+Priority: High
+Difficulty:
+Story: As a learner, I want to know when sessions are complete and receive visual feedback when complete. 
+Acceptance criteria:
+-	Clear text confirms session name and complete as still text to user
+-	Sizing is large and readable for users with clear contrast.
+-	State information is consistent with the designed user interface. 
+Definition of Done:
+End of screen is tested successfully with session confirmation clear and readable.
+User receives clear visual feedback that is simple and understimulating.
+
+Title: End-of-session optional reflection 
+Sprint: 2
+Priority:
+Difficulty:
+Story: 
+As an independent learner, I want to be able to reflect on sessions and skip without any pressure or penalty.
+Acceptance criteria include: 
+-	A clear end of session confirmation of completion
+-	Option to reflect on a session and skip freely
+Definition of Done: 
+There is an end of session screen notifying user of session completion.
+Optional reflection and skip are displayed when a session ends. 
+The screen is successfully tested and simplified visual design is maintained.
+
+
+Title: Visual themes
+Sprint: 3
+Priority: High
+Difficulty: 
+Story:
+As a student with additional support needs, I want to customise session backgrounds to manage stimulation and reduce cognitive and visual overload.
+Acceptance criteria include:
+-	Variety of visual themes for users to choose from.
+-	Light and dark mode readable and light on design aspects
+-	Consistent across all screens
+Definition of Done:
+User preferences are applied consistently and design stays readable.
+Default theme is applied unless changed by user input.
+Main features remain the same with the session screens. 
+
+
+
+
+
+
+
+
 ## Testing & Validation
 
 ## Project Reflection and Evaluation
