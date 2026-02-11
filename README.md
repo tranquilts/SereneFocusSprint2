@@ -100,6 +100,22 @@ A client side and modular approach is used to align with the scope of the projec
 
 The architecture does not create and store user accounts, including server persistence or cross-device syncing, as it is designed for single-user use, browser-based interactions, not multi-user, cross-device use. 
 
+# Software Tools & Development Techniques
+
+A number of software tools have been used for the purpose of creating the product.
+GitHub was used for version control to faciliate incremental, sprint-based development and record documented progression through commit history.  Penpot has been used to design and create visual wireframes to represent the user interface design states for SereneFocus. Draw.io has been used to create system flow diagrams to demonstrate how the system works for users and illustrates the user flow for SereneFocus as an adaptation of conventional Pomodoro timers. Visual Studio (VS) Code has been selected as the software development environment for creating SereneFocus. Browser DevTools is used to conduct system debugging and test the system performance. 
+
+# Programming Languages & Technologies 
+The timer uses JavaScript setInterval for local time tracking, duration and session management. State transitions take  place between stages of steup, active, paused and completion states.  Edge cases identified for testing include skipping reflection, repeated reset and session interruption.   
+
+HTML has been chosen to set the foundation for the system's base structure and user flow. 
+CSS is used to style the user interface for the user/client side on the browser and design the theme implementations on elements when selected by the user.
+JavaScript manages the timer logic, the timer state and DOM updates. LocalStorageAPI is implemented to save session data locally on the browser and local browser preferences chosen by the user at the time of use. 
+
+# Development Techniques Applied
+
+Specific development techniques applied includes modular javascript functions that control local processes on the browser and event-driven programming with user interactions on local browser sessions.
+There is client-side state management operating locally on the browser during user-configured sessions. Scrum is chosen to support iterative, incremental development which relates to advance sprint planning of user priorities for segmented sprints with clear outlines of acceptance criteria and definition of done with manual test validation perfomed for each sprint.  
 
 ## Project Management Progression
 
@@ -187,13 +203,7 @@ Definition of Done:
 User preferences are applied consistently and design stays readable.
 Default theme is applied unless changed by user input.
 Main features remain the same with the session screens. 
-
-
-
-
-
-
-
+ 
 
 ## Testing & Validation
 
