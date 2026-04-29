@@ -16,18 +16,24 @@
     </div>
 
     <div class="screen-card stack">
-      <progress value="40" max="100"></progress>
+      <progress class="progress-bar" value="0" max="100"></progress>
       <p>Focus session in progress</p>
-      <textarea placeholder="Name this session (optional)"></textarea>
+      <textarea class="session-name"></textarea>
 
       <div class="row">
-        <button><img src="play.svg" alt="start"></button>
-        <button><img src="pause.svg" alt="pause"></button>
-        <button><img src="reset.svg" alt="reset"></button>
+
+        <button class="play-btn">
+          <img src="play.svg" alt="start">
+        </button>
+        <button class="pause-btn">
+          <img src="pause.svg" alt="pause">
+        </button>
+        <button class="reset-btn">
+          <img src="reset.svg" alt="reset">
+        </button>
       </div>
     </div>
 
-    <a href="completion.html"><button>Complete</button></a>
   </section>
 </body>
 </html>

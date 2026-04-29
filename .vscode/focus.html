@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SereneFocus - Focus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="setup.css">
+</head>
+<body>
+  <section>
+    <div class="top-bar">
+      <h2>SereneFocus</h2>
+      
+    </div>
+
+    <div class="screen-card stack">
+      <progress class="progress-bar" value="0" max="100"></progress>
+      <p>Focus session in progress</p>
+      <textarea class="session-name"></textarea>
+
+      <div class="row">
+
+        <button class="play-btn">
+          <img src="play.svg" alt="start">
+        </button>
+        <button class="pause-btn">
+          <img src="pause.svg" alt="pause">
+        </button>
+        <button class="reset-btn">
+          <img src="reset.svg" alt="reset">
+        </button>
+      </div>
+    </div>
+
+  </section>
+  <script src="focus.js"></script>
+</body>
+</html>
