@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-family:
+display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+    text-align: center;
+padding: 50px;
+}
