@@ -45,7 +45,23 @@ SereneFocus applies simplicity, ease of navigation and structured interaction to
 - The system must be stable if optional inputs are skipped.
 
 
-## Product Backlog
+## Product Backlog (Updated for Sprint 2) 
+
+
+
+| ID | Feature | Description | Priority | Status |
+|----|--------|------------|----------|--------|
+| 1 | Timer Controls | Allow users to increase/decrease study time | High | Completed |
+| 2 | Start Navigation | Move from setup page to focus session | High | Completed |
+| 3 | Timer Functionality | Countdown timer with seconds tracking | High | Completed |
+| 4 | Progress Bar | Visual representation of session progress | High | Completed |
+| 5 | Pause Function | Allow user to pause timer | Medium | Completed |
+| 6 | Reset Function | Reset session timer and progress | Medium | Completed |
+| 7 | Completion Page | Redirect when timer ends | High | Completed |
+| 8 | Navigation Fixes | Fix broken links between pages | High | Completed |
+| 9 | UI Improvements | Improve layout, fonts, and styling | Medium | Completed |
+| 10 | Simplification | Remove unnecessary features (themes, reflection) | High | Completed |
+
 
 ## System Design
 The system consists of timer components as a progress bar, session configuration logic with session and break duration controls, session progress tracking through the progress bar, end-of-session reflection input handling and personalisation (themes and session controls). 
@@ -111,6 +127,74 @@ The timer uses JavaScript setInterval for local time tracking, duration and sess
 HTML has been chosen to set the foundation for the system's base structure and user flow. 
 CSS is used to style the user interface for the user/client side on the browser and design the theme implementations on elements when selected by the user.
 JavaScript manages the timer logic, the timer state and DOM updates. LocalStorageAPI is implemented to save session data locally on the browser and local browser preferences chosen by the user at the time of use. 
+
+
+The final version focuses on a simplified core journey:
+Controls page → Focus page → Completion page.
+
+## Sprint 2 Updates
+During Sprint 2, the prototype was updated to focus on core functionality and stability.
+
+Updates included:
+- Added JavaScript interactivity for study time controls.
+- Added plus and minus buttons to adjust study time.
+- Added a focus session page with play, pause, and reset controls.
+- Added a progress bar to visually track the session.
+- Added a completion page to confirm the session has ended.
+- Simplified the user flow by removing/deprioritising reflection, breaks, themes, and repeat sessions.
+
+## Design Decisions
+The original design included a wider range of wellbeing features, including reflection, breaks, themes, and repeat sessions. These were reduced to avoid scope creep and unnecessary complexity.
+
+The final design prioritises:
+- simplicity
+- stability
+- reduced cognitive load
+- accessibility
+- ease of navigation
+- core study-session functionality
+
+## Tools and Techniques Used
+- HTML: page structure
+- CSS: visual design and layout
+- JavaScript: interactivity and timer functionality
+- VS Code: development environment
+- GitHub: version control and repository management
+
+## Testing
+Testing focused on checking whether the core user journey worked.
+
+Tested features:
+- Plus button increases study time.
+- Minus button decreases study time.
+- Start button opens the Focus page.
+- Play button starts the session timer/progress.
+- Pause button stops the timer.
+- Reset button restarts the session.
+- Completion page appears after the session ends.
+
+## Problems and Fixes
+Problems encountered:
+- JavaScript functionality did not run correctly at first.
+- Some class names/selectors did not match between HTML and JavaScript.
+- Timer/progress bar logic needed debugging.
+- Scope had to be reduced because of time constraints.
+
+Fixes:
+- Checked script links between HTML and JavaScript.
+- Corrected querySelector class names.
+- Simplified the JavaScript functionality.
+- Prioritised the core session flow over additional features.
+
+## Future Improvements
+Future development could include:
+- Reflection page
+- Break timer
+- Repeat session option
+- Theme options
+- Session history
+- More accessibility testing
+- Improved responsive design
 
 ### Development Techniques Applied
 
@@ -231,6 +315,26 @@ Applied styling to match the design requirements for SereneFocus and system beha
 Implemented JavaScript functionality for timer behaviour.
 Added navigation to navigate between pages and illustrate the user flow
 
+## Development Logs (Scrum Sprint 2)
+
+
+
+### Sprint Review – Mid Development (1 month ago)
+- Added sprint burndown chart to README
+- Implemented user stories and testing validation
+- Improved documentation with backlog and reflections
+- Fixed navigation issues between pages (focus, completion, index)
+- Renamed files for consistency (controls → index, complete → completion)
+
+### Sprint Review – Final Development (22/03/2026 - 29/3/2026 days)
+- Updated and finalised prototype functionality
+- Implemented timer countdown logic
+- Added progress bar tracking
+- Improved UI layout and styling across pages
+- Removed unused pages (themes, reflection)
+- Fixed final bugs and navigation errors
+- Final prototype confirmed working
+
 Sprint 3 (14/03/2026 - 18/03/2026)
 Involved testing, debugging and refinement, reducing scope of features in response to problems occurring throughout development and prioritise a stable, functional base prototype.
 
@@ -241,6 +345,29 @@ Progress was continuously reviewed and changes were undertaken to enhance usabii
 The sprint burndown chart displays the planned versus actual progress of my project. The ideal line illustrates expected progress as planned while the actual line reflects real development, where progress was slower initially due to challenges amd increased towards the end.
 ## Testing & Validation
 Testing was carried out at regular intervals to ensure that all user features functioned correctly and aligned with user requirements.
+
+
+During Sprint 2, the prototype was updated to focus on core functionality and stability.
+
+Updates included:
+- Added JavaScript interactivity for study time controls.
+- Added plus and minus buttons to adjust study time.
+- Added a focus session page with play, pause, and reset controls.
+- Added a progress bar to visually track the session.
+- Added a completion page to confirm the session has ended.
+- Simplified the user flow by removing/deprioritising reflection, breaks, themes, and repeat sessions.
+
+## Design Decisions
+The original design included a wider range of wellbeing features, including reflection, breaks, themes, and repeat sessions. These were reduced to avoid scope creep and unnecessary complexity.
+
+The final design prioritises:
+- simplicity
+- stability
+- reduced cognitive load
+- accessibility
+- ease of navigation
+- core study-session functionality
+
 | Feature | Test Case| Expected Result | Outcome |
 -------|------------|------------------|----------------------------|
 |Navigation |Click buttons between pages| Pages load correctly | Passed| |
